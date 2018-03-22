@@ -1,0 +1,74 @@
+.main {
+    width: 50rem;
+    height: 30rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    line-height: 2;
+    font-family: Arial;
+    background-color: #F5F5F5;
+    border: 2px solid #ddd;
+}
+
+legend {
+    width: 14rem;
+    background-color: white;
+    border: 2px solid #ddd;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -1.5rem;
+    margin-left: 18rem;  
+}
+
+label[for=fullname] {
+    position:relative;
+    left:2rem; 
+    font-size: 1.5rem;
+}
+
+#fullname {
+    width: 20rem;;
+    height: 2rem;
+    position:relative;
+    top: 3rem; 
+    left: -5rem;
+}
+
+label[for=email] {
+    font-size: 1.5rem;
+    position:relative;
+    top: -2.5rem;
+    left: 28rem;
+}
+
+#email {
+    width: 20rem;
+    height: 2rem;
+    position: relative;
+    left: 24rem;
+}
+
+label[for=message] {
+    font-size: 1.5rem;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+#message {
+    width: 46rem;
+    height: auto;
+    position:relative;
+    top: 2.5rem;
+    left: 2rem;
+}
+
+#button-input {
+    background-color:#6495ED;
+    width: 46rem;
+    padding: 10px;
+    font-size: 1.5rem;
+    height: auto;
+    position: relative;
+    top: 3.5rem;
+    left: 2rem;
+}
